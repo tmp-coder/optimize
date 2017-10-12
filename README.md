@@ -1,2 +1,6 @@
 # optimize
-数值最优化个人简单实现，不再把scipy.optimize当作黑箱.
+《introduction to Optimize》个人简单实现，不再把scipy.optimize当作黑箱.
+
+# 相关算法解读
+
+[Introduction to Optimization:一维最优化方法](http://blog.csdn.net/dylan_frank/article/details/78218896)
