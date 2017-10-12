@@ -48,13 +48,11 @@ def cg_gradient(fun, grad, x0, args=(), g_args=(), tol=1e-8, max_iter=5000):
 if __name__ == '__main__':
     from scipy.optimize import rosen, rosen_der, minimize
 
-    # res = fast_gradient(rosen, rosen_der, [-2, 2], tol=1e-8, max_iter=100000)
-    # print('my opt\n', res)
-    # res = cg_gradient(rosen, rosen_der, [-2, 2])
-    # print('cg res\n')
-    # print(res)
-    # print('scipy.opt.minimize\n')
-    # res = minimize(rosen, x0=[-2, 2], jac=rosen_der)
-    # print(res)
-
-    f
+    res = fast_gradient(rosen, rosen_der, [-2, 2], tol=1e-8, max_iter=100000)
+    print('my opt\n', res)
+    res = cg_gradient(rosen, rosen_der, [-2, 2])
+    print('cg res\n')
+    print(res)
+    print('scipy.opt.minimize\n')
+    res = minimize(rosen, x0=[-2, 2], jac=rosen_der)
+    print(res)
