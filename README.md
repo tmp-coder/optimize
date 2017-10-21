@@ -6,3 +6,7 @@
 [Introduction to Optimization:一维最优化方法](http://blog.csdn.net/dylan_frank/article/details/78218896)
 
 [Introduction to Optimization:基于梯度的优化](http://blog.csdn.net/Dylan_Frank/article/details/78220959)
+
+[Introduction to Optimization: 共轭梯度算法](http://blog.csdn.net/Dylan_Frank/article/details/78270326)
+
+[Introduction to Optimization: 拟牛顿法](http://blog.csdn.net/Dylan_Frank/article/details/78287680)
